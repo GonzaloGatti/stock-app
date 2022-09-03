@@ -4,7 +4,7 @@ require('dotenv').config();
 
 app.get('/', (req,res)=>{
     console.log("Peticion recibida");
-    res.send("Hola mundo")
+    res.send("Hola mundo sin .env")
 })
 
 const PORT = process.env.PORT || 4000;
