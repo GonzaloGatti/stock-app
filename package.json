@@ -1,0 +1,18 @@
+{
+  "name": "stock-app",
+  "version": "1.0.0",
+  "description": "Aplicacion FULLSTACK",
+  "main": "app.js",
+  "author": "Gonzal- Gatti",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
